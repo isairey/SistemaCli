@@ -127,8 +127,8 @@ Located at: `/accounts/`
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Imhotep-Tech/imhotep_smart_clinic.git
-cd imhotep_smart_clinic
+git clone https://github.com/isairey/SistemaCli.git
+cd SistemaCli
 
 # 2. Create your configuration file
 cp .env.example .env
@@ -144,8 +144,8 @@ docker-compose up -d
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Imhotep-Tech/imhotep_smart_clinic.git
-cd imhotep_smart_clinic
+git clone https://github.com/isairey/SistemaCli.git
+cd SistemaCli
 
 # 2. Create virtual environment
 python -m venv venv
@@ -212,8 +212,8 @@ docker-compose --version
 
 ```bash
 # Clone the repository
-git clone https://github.com/Imhotep-Tech/imhotep_smart_clinic.git
-cd imhotep_smart_clinic
+git clone https://github.com/isairey/SistemaCli.git
+cd SistemaCli
 
 # Create environment file
 cp .env.example .env
@@ -279,8 +279,8 @@ postgres=# \q
 
 ```bash
 # Clone repository
-git clone https://github.com/Imhotep-Tech/imhotep_smart_clinic.git
-cd imhotep_smart_clinic
+git clone https://github.com/isairey/SistemaCli.git
+cd SistemaCli
 
 # Create virtual environment
 python3 -m venv venv
@@ -854,13 +854,13 @@ Report security vulnerabilities privately according to our [Security Policy](SEC
 - [TailwindCSS](https://tailwindcss.com/) - CSS framework
 - [WeasyPrint](https://weasyprint.org/) - PDF generation
 - [Alpine.js](https://alpinejs.dev/) - JavaScript framework
-- All our [contributors](https://github.com/Imhotep-Tech/imhotep_smart_clinic/graphs/contributors)
+- All our [contributors](https://github.com/isairey/SistemaCli/graphs/contributors)
 
 ## 📞 Support
 
 - **Documentation**: This README and code comments
-- **Issues**: [GitHub Issues](https://github.com/Imhotep-Tech/imhotep_smart_clinic/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Imhotep-Tech/imhotep_smart_clinic/discussions)
+- **Issues**: [GitHub Issues](https://github.com/isairey/SistemaCli/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/isairey/SistemaCli/discussions)
 
 ---
 
