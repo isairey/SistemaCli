@@ -1,86 +1,86 @@
-# Contributing to Imhotep Smart Clinic
+# Contribuir a Imhotep Smart Clinic
 
-Thank you for considering contributing to Imhotep Smart Clinic! This document provides guidelines and instructions for contributing to this project.
+¡Gracias por considerar contribuir a Imhotep Smart Clinic! Este documento proporciona lineamientos e instrucciones para contribuir a este proyecto.
 
-## Code of Conduct
+## Código de Conducta
 
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+Por favor lee y sigue nuestro [Código de Conducta](CODE_OF_CONDUCT.md).
 
-## Getting Started
+## Primeros Pasos
 
-1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR-USERNAME/imhotep_smart_clinic.git`
-3. Create a virtual environment and install dependencies (see [README.md](README.md))
-4. Create a new branch for your feature: `git checkout -b feature/your-feature-name`
+1. Haz un fork del repositorio
+2. Clona tu fork: `git clone https://github.com/YOUR-USERNAME/imhotep_smart_clinic.git`
+3. Crea un entorno virtual e instala las dependencias (ver [README.md](README.md))
+4. Crea una nueva rama para tu funcionalidad: `git checkout -b feature/tu-nombre-de-funcionalidad`
 
-## Development Workflow
+## Flujo de Desarrollo
 
-1. Make your changes
-2. Test your changes thoroughly
-3. Update documentation if necessary
-4. Commit your changes with clear, descriptive commit messages
-5. Push to your fork: `git push origin feature/your-feature-name`
-6. Submit a pull request to the `main` branch
+1. Realiza tus cambios
+2. Prueba tus cambios exhaustivamente
+3. Actualiza la documentación si es necesario
+4. Haz commit de tus cambios con mensajes claros y descriptivos
+5. Sube los cambios a tu fork: `git push origin feature/tu-nombre-de-funcionalidad`
+6. Envía un pull request a la rama `main`
 
-## Pull Request Process
+## Proceso de Pull Request
 
-1. Ensure your code follows our style guidelines
-2. Make sure all tests pass
-3. Update the README.md or documentation with details of changes if applicable
-4. Your pull request will be reviewed by maintainers, who may request changes
+1. Asegúrate de que tu código siga nuestras guías de estilo
+2. Verifica que todas las pruebas pasen correctamente
+3. Actualiza el README.md o la documentación con detalles de los cambios si aplica
+4. Tu pull request será revisado por los mantenedores, quienes pueden solicitar cambios
 
-## Style Guidelines
+## Guías de Estilo
 
-### Python Code Style
+### Estilo de Código en Python
 
-- Follow PEP 8
-- Use docstrings for functions and classes
-- Use meaningful variable and function names
-- Keep functions focused on a single responsibility
+- Sigue PEP 8
+- Usa docstrings para funciones y clases
+- Usa nombres significativos para variables y funciones
+- Mantén las funciones enfocadas en una sola responsabilidad
 
-### JavaScript Style
+### Estilo de JavaScript
 
-- Use ES6+ features when appropriate
-- Follow consistent indentation (2 spaces)
-- Use semicolons
-- Use meaningful variable and function names
+- Usa características de ES6+ cuando sea apropiado
+- Sigue una indentación consistente (2 espacios)
+- Usa punto y coma
+- Usa nombres significativos para variables y funciones
 
-### HTML/Template Style
+### Estilo de HTML/Plantillas
 
-- Use semantic HTML elements
-- Follow consistent indentation
-- Keep templates focused and modular
+- Usa elementos HTML semánticos
+- Sigue una indentación consistente
+- Mantén las plantillas enfocadas y modulares
 
-## Testing
+## Pruebas
 
-- Write tests for new features
-- Ensure all tests pass before submitting a pull request
-- Test across multiple browsers if making frontend changes
+- Escribe pruebas para nuevas funcionalidades
+- Asegúrate de que todas las pruebas pasen antes de enviar un pull request
+- Prueba en múltiples navegadores si realizas cambios en el frontend
 
-## Documentation
+## Documentación
 
-- Update documentation for new features
-- Use clear, concise language
-- Provide examples where appropriate
+- Actualiza la documentación para nuevas funcionalidades
+- Usa un lenguaje claro y conciso
+- Proporciona ejemplos cuando sea apropiado
 
-## Reporting Issues
+## Reporte de Problemas
 
-- Use the GitHub issue tracker
-- Provide a clear title and description
-- Include steps to reproduce the issue
-- Include screenshots if applicable
-- Specify your environment (browser, OS, etc.)
+- Usa el rastreador de issues de GitHub
+- Proporciona un título y descripción claros
+- Incluye pasos para reproducir el problema
+- Agrega capturas de pantalla si es necesario
+- Especifica tu entorno (navegador, sistema operativo, etc.)
 
-## Feature Requests
+## Solicitudes de Funcionalidades
 
-- Use the GitHub issue tracker
-- Clearly describe the feature and its benefits
-- Be open to discussion and feedback
+- Usa el rastreador de issues de GitHub
+- Describe claramente la funcionalidad y sus beneficios
+- Mantente abierto a discusión y retroalimentación
 
-## Contact
+## Contacto
 
-If you have questions or need help, you can:
-- Open an issue
-- Contact the maintainers at imhoteptech@outlook.com
+Si tienes preguntas o necesitas ayuda, puedes:
+- Abrir un issue
+- Contactar a los mantenedores en isaireyes2003@gmail.com
 
-Thank you for contributing!
+¡Gracias por contribuir!
