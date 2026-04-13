@@ -13,7 +13,7 @@ Actualmente, soportamos las siguientes versiones con actualizaciones de segurida
 Nos tomamos muy en serio la seguridad de Imhotep Smart Clinic. Si crees que has encontrado una vulnerabilidad de seguridad, por favor sigue estos pasos:
 
 1. **NO divulgues la vulnerabilidad públicamente** (no usar issues de GitHub para vulnerabilidades de seguridad)
-2. Envíanos un correo a imhoteptech@outlook.com con:
+2. Envíanos un correo a isaireyes2003@gmail.com con:
    - Una descripción de la vulnerabilidad
    - Pasos para reproducirla
    - Impacto potencial
