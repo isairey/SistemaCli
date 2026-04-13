@@ -37,7 +37,7 @@ Ejemplos de representación incluyen el uso de un correo electrónico oficial de
 ## Aplicación
 
 Los casos de comportamiento abusivo, de acoso u otro tipo de conducta inaceptable pueden reportarse a los líderes de la comunidad responsables de su cumplimiento en:
-imhoteptech@outlook.com
+isaireyes2003@gmail.com
 
 Todas las quejas serán revisadas e investigadas de manera rápida y justa.
 
