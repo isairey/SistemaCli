@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Prescription</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        body {
+            font-family: Arial, "Noto Sans Arabic", sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2a4365;
+        }
+        .header-left {
+            flex: 1;
+        }
+        .header-center {
+            flex: 1;
+            text-align: center;
+        }
+        .header-right {
+            flex: 1;
+            text-align: right;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .prescription-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2a4365;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .date {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .divider {
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .patient-info {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9fafb;
+        }
+        .patient-info h3 {
+            background-color: #e9ecef;
+            padding: 8px;
+            margin-top: 0;
+            color: #2a4365;
+        }
+        .prescription-content {
+            margin-bottom: 30px;
+        }
+        
+        /* Rich text styling for prescription content */
+        .prescription-content ul, 
+        .prescription-content ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            margin-top: 0.5rem;
+        }
+        .prescription-content ul {
+            list-style-type: disc;
+        }
+        .prescription-content ol {
+            list-style-type: decimal;
+        }
+        .prescription-content strong {
+            font-weight: bold;
+        }
+        .prescription-content em {
+            font-style: italic;
+        }
+        .prescription-content p {
+            margin-bottom: 0.75rem;
+            margin-top: 0.5rem;
+        }
+        .prescription-content li {
+            margin-bottom: 0.25rem;
+        }
+        
+        .prescription-content h3 {
+            background-color: #e9ecef;
+            padding: 8px;
+            margin-top: 0;
+            color: #2a4365;
+        }
+        
+        .rx-symbol:before {
+            content: "℞";
+            font-size: 16px;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        
+        .signature {
+            margin-top: 60px;
+            border-top: 1px solid #999;
+            padding-top: 10px;
+            width: 50%;
+            margin-left: 50%;
+        }
+        .footer {
+            text-align: center;
+            font-size: 9px;
+            color: #777;
+            margin-top: 40px;
+            font-style: italic;
+        }
+        .rtl {
+            direction: rtl;
+            text-align: right;
+        }
+        .clinic-name {
+            font-size: 8px;
+            color: #aaa;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .logo {
+            max-height: 80px;
+            max-width: 200px;
+            margin-right: 15px;
+        }
+        .clinic-details {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with logo -->
+        <div class="header">
+            <div class="header-left logo-container">
+                {% if clinic_logo_path %}
+                    <img src="{{ clinic_logo_path }}" alt="Clinic Logo" class="logo">
+                {% endif %}
+                <div class="clinic-details">
+                    <h3 style="margin: 0;">Dr. {{ doctor_name }}</h3>
+                    <p style="margin: 0;">{{ doctor_specialization }}</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <p style="margin: 0;">Date: {{ formatted_date }}</p>
+            </div>
+        </div>
+        
+        <h1 class="prescription-title">PRESCRIPTION</h1>
+        
+        <div class="patient-info">
+            <h3>Patient Information</h3>
+            <p>Name: <span {% if has_arabic_name %}class="rtl"{% endif %}>{{ patient.name }}</span></p>
+            <p>Gender: {{ patient.gender }}</p>
+            {% if patient.date_of_birth %}
+            <p>DOB: {{ patient.date_of_birth }}</p>
+            {% endif %}
+        </div>
+        
+        {% if medical_record.prescription %}
+        <div class="prescription-content rx-symbol">
+            <h3>Prescription:</h3>
+            <div {% if has_arabic %}class="rtl"{% endif %}>
+                {{ medical_record.prescription|safe }}
+            </div>
+        </div>
+        {% endif %}
+        
+        <div class="signature">
+            <p>Doctor's Signature:</p>
+            <p {% if has_arabic_doctor_name %}class="rtl"{% endif %}>Dr. {{ doctor_name }}</p>
+            <p {% if has_arabic_specialization %}class="rtl"{% endif %}>Specialization: {{ doctor_specialization }}</p>
+        </div>
+        
+        <div class="footer">
+            <p>This is a computer-generated prescription and does not require a physical signature.</p>
+            <p class="clinic-name">Imhotep Smart Clinic</p>
+        </div>
+    </div>
+</body>
+</html>
