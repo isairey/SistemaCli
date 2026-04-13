@@ -1,49 +1,49 @@
-# Security Policy
+# Política de Seguridad
 
-## Supported Versions
+## Versiones Soportadas
 
-Currently, we support these versions with security updates:
+Actualmente, soportamos las siguientes versiones con actualizaciones de seguridad:
 
-| Version | Supported          |
-| ------- | ------------------ |
-|  1.0.0 | :white_check_mark: |
+| Versión | Soportado         |
+| ------- | ----------------- |
+|  1.0.0  | :white_check_mark: |
 
-## Reporting a Vulnerability
+## Reportar una Vulnerabilidad
 
-We take the security of Imhotep Smart Clinic seriously. If you believe you've found a security vulnerability, please follow these steps:
+Nos tomamos muy en serio la seguridad de Imhotep Smart Clinic. Si crees que has encontrado una vulnerabilidad de seguridad, por favor sigue estos pasos:
 
-1. **Do NOT disclose the vulnerability publicly** (no GitHub issues for security vulnerabilities)
-2. Email us at imhoteptech@outlook.com with:
-   - A description of the vulnerability
-   - Steps to reproduce
-   - Potential impact
-   - Suggestions for mitigation if you have any
+1. **NO divulgues la vulnerabilidad públicamente** (no usar issues de GitHub para vulnerabilidades de seguridad)
+2. Envíanos un correo a imhoteptech@outlook.com con:
+   - Una descripción de la vulnerabilidad
+   - Pasos para reproducirla
+   - Impacto potencial
+   - Sugerencias para mitigarla si tienes alguna
 
-## What to Expect
+## Qué Esperar
 
-When you report a vulnerability:
+Cuando reportes una vulnerabilidad:
 
-1. You will receive acknowledgment of your report within 48 hours
-2. We will investigate and provide an initial assessment within 7 days
-3. We will keep you informed about our progress in resolving the issue
-4. Once the vulnerability is fixed, we will credit you (if desired) for the responsible disclosure
+1. Recibirás confirmación de tu reporte dentro de 48 horas
+2. Investigaremos y proporcionaremos una evaluación inicial dentro de 7 días
+3. Te mantendremos informado sobre nuestro progreso en la resolución del problema
+4. Una vez que la vulnerabilidad sea corregida, te daremos crédito (si así lo deseas) por la divulgación responsable
 
-## Security Measures
+## Medidas de Seguridad
 
-Imhotep Smart Clinic implements several security measures:
+Imhotep Smart Clinic implementa varias medidas de seguridad:
 
-- Regular dependency updates to patch known vulnerabilities
-- Input validation to prevent injection attacks
-- HTTPS encryption for all data in transit
-- Strict access controls for user data
-- Regular security audits
+- Actualización regular de dependencias para corregir vulnerabilidades conocidas
+- Validación de entradas para prevenir ataques de inyección
+- Encriptación HTTPS para todos los datos en tránsito
+- Controles de acceso estrictos para los datos de los usuarios
+- Auditorías de seguridad periódicas
 
-## For Security Researchers
+## Para Investigadores de Seguridad
 
-We appreciate the work security researchers do to help keep our users safe. To encourage responsible disclosure:
+Apreciamos el trabajo que realizan los investigadores de seguridad para mantener a nuestros usuarios seguros. Para fomentar la divulgación responsable:
 
-- We will not take legal action against you for security research conducted in good faith
-- We will acknowledge your contribution in our release notes (unless you prefer to remain anonymous)
-- We aim to fix confirmed vulnerabilities as quickly as possible
+- No tomaremos acciones legales contra ti por investigaciones de seguridad realizadas de buena fe
+- Reconoceremos tu contribución en nuestras notas de lanzamiento (a menos que prefieras permanecer en el anonimato)
+- Buscamos corregir vulnerabilidades confirmadas lo más rápido posible
 
-Thank you for helping keep Imhotep Smart Clinic secure!
+¡Gracias por ayudar a mantener seguro Imhotep Smart Clinic!
